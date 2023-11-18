@@ -2,6 +2,7 @@
 <template>
   <div>
     <h1>域名列表</h1>
+    <h2>hello</h2>
     <ul>
       <li v-for="domain in domains" :key="domain.id">
         {{ domain.name }}
