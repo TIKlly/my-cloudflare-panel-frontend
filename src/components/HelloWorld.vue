@@ -21,8 +21,6 @@ const domains = ref([{ name: "", id: 1 }])
 
 onMounted(async () => {
   let res = await getDomains()
-  console.log(res);
-
   domains.value = res.data
 })
 
